@@ -1,0 +1,95 @@
+digraph root {
+	2017 -> 2018 [color=blue]
+	2018 -> 2019 [color=blue]
+	2019 -> 2020 [color=blue]
+	2020 -> 2021 [color=blue]
+	2021 -> 2022 [color=blue]
+	labelloc=t
+	fontsize=25 label="GTB Lineage"
+	bgcolor=white
+	center=true
+	"Rahil K" -> "Harsh M" [color=blue]
+	"Harnoor D" -> "Aila K" [color=blue]
+	"Harnoor D" -> "Srinidhi N" [color=blue]
+	"Adarsh R" -> "Sunny S" [color=blue]
+	"Adarsh R" -> "Aaditya G" [color=blue]
+	"Adarsh R" -> "Khushi P" [color=blue]
+	"Poojan R" -> "Adithya P" [color=blue]
+	"Poojan R" -> "Madhu S" [color=blue]
+	"Farzeen H" -> "Ajay G" [color=blue]
+	"Harsh M" -> "Nikhil K" [color=blue]
+	"Srinidhi N" -> "Srishti G" [color=blue]
+	"Medha M" -> "Reetu M" [color=blue]
+	"Medha M" -> "Swetha A" [color=blue]
+	"Srishti G" -> "Rasagna V" [color=blue]
+	"Srishti G" -> "Kashika S" [color=blue]
+	"Riya P" -> "Ria N" [color=blue]
+	"Riya P" -> "Audrey W" [color=blue]
+	"Madhu S" -> "Ashu G" [color=blue]
+	"Nikhil K" -> "Aabjeet G" [color=blue]
+	"Kriti K" -> "Shailey D" [color=blue]
+	"Kriti K" -> "Pooja P" [color=blue]
+	"Ajay G" -> "Ishan P" [color=blue]
+	"Adithya P" -> "Shriya B" [color=blue]
+	"Anish U" -> "Ashu G" [color=blue]
+	"Anish U" -> "Dhruv N" [color=blue]
+	"Reetu M" -> "Ria N" [color=blue]
+	"Reetu M" -> "Pooja P" [color=blue]
+	"Swetha A" -> "Shriya B" [color=blue]
+	subgraph 2017 {
+		rank=same
+		2017 [fillcolor=gold shape=ellipse style=filled]
+		"Rahil K" [shape=hexagon]
+	}
+	subgraph 2018 {
+		rank=same
+		2018 [fillcolor=gold shape=ellipse style=filled]
+		"Harnoor D" [shape=hexagon]
+	}
+	subgraph 2019 {
+		rank=same
+		2019 [fillcolor=gold shape=ellipse style=filled]
+		"Adarsh R" [fillcolor=gold shape=doubleoctagon style=filled]
+		"Poojan R" [fillcolor=gold shape=doubleoctagon style=filled]
+		"Farzeen H" [fillcolor=gold shape=doubleoctagon style=filled]
+		"Harsh M" [shape=hexagon]
+		"Mitchell K" [shape=hexagon]
+		"Srinidhi N" [shape=hexagon]
+		"Medha M" [shape=hexagon]
+	}
+	subgraph 2020 {
+		rank=same
+		2020 [fillcolor=gold shape=ellipse style=filled]
+		"Srishti G" [shape=hexagon]
+		"Riya P" [shape=hexagon]
+		"Madhu S" [shape=hexagon]
+		"Nikhil K" [shape=hexagon]
+	}
+	subgraph 2021 {
+		rank=same
+		2021 [fillcolor=gold shape=ellipse style=filled]
+		"Kriti K" [shape=hexagon]
+		"Ajay G" [fillcolor=gold shape=doubleoctagon style=filled]
+		"Adithya P" [shape=hexagon]
+		"Anish U" [shape=hexagon]
+		"Reetu M" [fillcolor=gold shape=doubleoctagon style=filled]
+		"Aaditya G" [shape=hexagon]
+		"Swetha A" [shape=hexagon]
+		"Sunny S" [shape=hexagon]
+	}
+	subgraph 2022 {
+		rank=same
+		2022 [fillcolor=gold shape=ellipse style=filled]
+		"Ashu G" [fillcolor=gold shape=doubleoctagon style=filled]
+		"Dhruv N" [shape=hexagon]
+		"Ria N" [shape=hexagon]
+		"Kashika S" [shape=hexagon]
+		"Khushi P" [shape=hexagon]
+		"Pooja P" [shape=hexagon]
+		"Shriya B" [shape=hexagon]
+		"Aabjeet G" [shape=hexagon]
+		"Audrey W" [shape=hexagon]
+		"Rasagna V" [shape=hexagon]
+		"Ishan P" [shape=hexagon]
+	}
+}
